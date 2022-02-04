@@ -1,0 +1,644 @@
+// {
+//   "results": [
+//     {
+//       "id":1,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What is the famous line Vaas says in &quot;Far Cry 3&quot;?",
+//       "correct_answer": "Did I ever tell you the definition of Insanity?",
+//       "incorrect_answers": [
+//         "Have I failed to entertain you?",
+//         "You&#039;re my b*tch!",
+//         "Maybe your best course...would be to tread lightly."
+//       ]
+//     },
+//     {
+//       "id":2,
+//       "category": "General Knowledge",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "What is the first book of the Old Testament?",
+//       "correct_answer": "Genesis",
+//       "incorrect_answers": [
+//         "Exodus",
+//         "Leviticus",
+//         "Numbers"
+//       ]
+//     },
+//     {
+//       "id":3,
+//       "category": "History",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+//       "correct_answer": "100 Megatons",
+//       "incorrect_answers": [
+//         "200 Megatons",
+//         "75 Megatons",
+//         "150 Megatons"
+//       ]
+//     },
+//     {
+//       "id":4,
+//       "category": "Science & Nature",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "The &#039;Islets of Langerhans&#039; is found in which human organ?",
+//       "correct_answer": "Pancreas",
+//       "incorrect_answers": [
+//         "Kidney",
+//         "Liver",
+//         "Brain"
+//       ]
+//     },
+//     {
+//       "id":5,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Along with Gabe Newell, who co-founded Valve?",
+//       "correct_answer": "Mike Harrington",
+//       "incorrect_answers": [
+//         "Robin Walker",
+//         "Marc Laidlaw",
+//         "Stephen Bahl"
+//       ]
+//     },
+//     {
+//       "id":6,
+//       "category": "Entertainment: Television",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?",
+//       "correct_answer": "7 Meters",
+//       "incorrect_answers": [
+//         "10 Meters",
+//         "2 Meters",
+//         "5 Meters"
+//       ]
+//     },
+//     {
+//       "id":7,
+//       "category": "Entertainment: Film",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+//       "correct_answer": "Highlander",
+//       "incorrect_answers": [
+//         "Flash Gordon",
+//         "Labyrinth",
+//         "Howard the Duck"
+//       ]
+//     },
+//     {
+//       "id":8,
+//       "category": "Entertainment: Board Games",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "How many pieces are there on the board at the start of a game of chess?",
+//       "correct_answer": "32",
+//       "incorrect_answers": [
+//         "16",
+//         "20",
+//         "36"
+//       ]
+//     },
+//     {
+//       "id":9,
+//       "category": "Geography",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "All of the following are towns/villages in the Pacific Island nation of Kiribati EXCEPT:",
+//       "correct_answer": "Urutora",
+//       "incorrect_answers": [
+//         "Rungata",
+//         "London",
+//         "Washington"
+//       ]
+//     },
+//     {
+//       "id":10,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "In Forza Motorsport 6, which of these track-exclusive cars was NOT featured in the game, either originally with the game or added as DLC?",
+//       "correct_answer": "Aston Martin Vulcan",
+//       "incorrect_answers": [
+//         "Ferrari FXX-K",
+//         "McLaren P1 GTR",
+//         "Lotus E23"
+//       ]
+//     },
+//     {
+//       "id":11,
+//       "category": "Science & Nature",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "What is the chemical makeup of water?",
+//       "correct_answer": "H20",
+//       "incorrect_answers": [
+//         "C12H6O2",
+//         "CO2",
+//         "H"
+//       ]
+//     },
+//     {
+//       "id":12,
+//       "category": "Entertainment: Japanese Anime & Manga",
+//       "type": "boolean",
+//       "difficulty": "easy",
+//       "question": "In Kill La Kill, the weapon of the main protagonist is a katana. ",
+//       "correct_answer": "False",
+//       "incorrect_answers": [
+//         "True"
+//       ]
+//     },
+//     {
+//       "id":13,
+//       "category": "Art",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "What year was the Mona Lisa finished?",
+//       "correct_answer": "1504",
+//       "incorrect_answers": [
+//         "1487",
+//         "1523",
+//         "1511"
+//       ]
+//     },
+//     {
+//       "id":14,
+//       "category": "Sports",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+//       "correct_answer": "Michael Schumacher",
+//       "incorrect_answers": [
+//         "Ayrton Senna",
+//         "Fernando Alonso",
+//         "Jim Clark"
+//       ]
+//     },
+//     {
+//       "id":15,
+//       "category": "Entertainment: Board Games",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "Which of these games includes the phrase &quot;Do not pass Go, do not collect $200&quot;?",
+//       "correct_answer": "Monopoly",
+//       "incorrect_answers": [
+//         "Pay Day",
+//         "Cluedo",
+//         "Coppit"
+//       ]
+//     },
+//     {
+//       "id":16,
+//       "category": "Science: Computers",
+//       "type": "boolean",
+//       "difficulty": "medium",
+//       "question": "MacOS is based on Linux.",
+//       "correct_answer": "False",
+//       "incorrect_answers": [
+//         "True"
+//       ]
+//     },
+//     {
+//       "id":17,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet&#039;s boss fight?",
+//       "correct_answer": "U.N. Owen Was Her",
+//       "incorrect_answers": [
+//         "Septette for the Dead Princess",
+//         "Flowering Night",
+//         "Pierrot of the Star-Spangled Banner"
+//       ]
+//     },
+//     {
+//       "id":18,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What name does the little headcrab in &quot;Half Life 2&quot; have?",
+//       "correct_answer": "Lamarr",
+//       "incorrect_answers": [
+//         "Jumperr",
+//         "Drett",
+//         "Jerry"
+//       ]
+//     },
+//     {
+//       "id":19,
+//       "category": "Vehicles",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "How much horsepower is produced by the SD40-2 Locomotive?",
+//       "correct_answer": "3,000",
+//       "incorrect_answers": [
+//         "3,200",
+//         "2,578",
+//         "2,190"
+//       ]
+//     },
+//     {
+//       "id":20,
+//       "category": "Science & Nature",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+//       "correct_answer": "The presence or absence of a nucleus",
+//       "incorrect_answers": [
+//         "The overall size",
+//         "The presence or absence of certain organelles",
+//         "The mode of reproduction"
+//       ]
+//     },
+//     {
+//       "id":21,
+//       "category": "Science: Computers",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+//       "correct_answer": "center",
+//       "incorrect_answers": [
+//         "static",
+//         "absolute",
+//         "relative"
+//       ]
+//     },
+//     {
+//       "id":22,
+//       "category": "Science: Computers",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?",
+//       "correct_answer": "Heartbleed",
+//       "incorrect_answers": [
+//         "Shellshock",
+//         "Corrupted Blood",
+//         "Shellscript"
+//       ]
+//     },
+//     {
+//       "id":23,
+//       "category": "Vehicles",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "What engine is in the Lexus SC400?",
+//       "correct_answer": "1UZ-FE",
+//       "incorrect_answers": [
+//         "2JZ-GTE",
+//         "7M-GTE",
+//         "5M-GE"
+//       ]
+//     },
+//     {
+//       "id":24,
+//       "category": "Mythology",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "In Greek mythology, who is the god of wine?",
+//       "correct_answer": "Dionysus",
+//       "incorrect_answers": [
+//         "Hephaestus",
+//         "Demeter",
+//         "Apollo"
+//       ]
+//     },
+//     {
+//       "id":25,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What is the item required to summon the boss Duke Fishron in the game Terraria?",
+//       "correct_answer": "Truffle Worm",
+//       "incorrect_answers": [
+//         "Suspicious Looking Fish",
+//         "King Grasshopper",
+//         "Slug"
+//       ]
+//     },
+//     {
+//       "id":26,
+//       "category": "Politics",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "Who was the 45th President of the United States?",
+//       "correct_answer": "Donald Trump",
+//       "incorrect_answers": [
+//         "Barack Obama",
+//         "Bill Clinton",
+//         "George Bush"
+//       ]
+//     },
+//     {
+//       "id":27,
+//       "category": "Entertainment: Film",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Which famous singer was portrayed by actor Kevin Spacey in the 2004 biographical film &quot;Beyond the Sea&quot;?",
+//       "correct_answer": "Bobby Darin",
+//       "incorrect_answers": [
+//         "Louis Armstrong",
+//         "Frank Sinatra",
+//         "Dean Martin"
+//       ]
+//     },
+//     {
+//       "id":28,
+//       "category": "Entertainment: Musicals & Theatres",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "Who serves as the speaker of the prologue in Shakespeare&#039;s Romeo and Juliet?",
+//       "correct_answer": "Chorus",
+//       "incorrect_answers": [
+//         "Montague",
+//         "Refrain",
+//         "Capulet"
+//       ]
+//     },
+//     {
+//       "id":29,
+//       "category": "Vehicles",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What nickname was given to Air Canada Flight 143 after it ran out of fuel and glided to safety in 1983?",
+//       "correct_answer": "Gimli Glider",
+//       "incorrect_answers": [
+//         "Gimli Microlight",
+//         "Gimli Chaser",
+//         "Gimli Superb"
+//       ]
+//     },
+//     {
+//       "id":30,
+//       "category": "General Knowledge",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "What was Bank of America originally established as?",
+//       "correct_answer": "Bank of Italy",
+//       "incorrect_answers": [
+//         "Bank of Long Island",
+//         "Bank of Pennsylvania",
+//         "Bank of Charlotte"
+//       ]
+//     },
+//     {
+//       "id":31,
+//       "category": "Entertainment: Video Games",
+//       "type": "boolean",
+//       "difficulty": "medium",
+//       "question": "In &quot;Starbound&quot;, the track played by the Decorated Music Box is named &quot;Atlas&quot;.",
+//       "correct_answer": "True",
+//       "incorrect_answers": [
+//         "False"
+//       ]
+//     },
+//     {
+//       "id":32,
+//       "category": "Entertainment: Japanese Anime & Manga",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What year did &quot;Bishoujo Senshi Sailor Moon&quot; air in Japan?",
+//       "correct_answer": "1992",
+//       "incorrect_answers": [
+//         "1989",
+//         "1990",
+//         "1994"
+//       ]
+//     },
+//     {
+//       "id":33,
+//       "category": "History",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Which country was an allied power in World War II?",
+//       "correct_answer": "Soviet Union",
+//       "incorrect_answers": [
+//         "Italy",
+//         "Germany",
+//         "Japan"
+//       ]
+//     },
+//     {
+//       "id":34,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Which of the following colors does the Zombie eyes glow in the &quot;Nuketown&quot; map in &quot;Call of Duty: Black Ops II&quot; Zombies mode?",
+//       "correct_answer": "Yellow and Blue",
+//       "incorrect_answers": [
+//         "Yellow and Red",
+//         "Red and Blue",
+//         "Blue and White"
+//       ]
+//     },
+//     {
+//       "id":35,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s main easter egg will reward you with the achievement, &quot;High Maintenance&quot;?",
+//       "correct_answer": "Die Rise",
+//       "incorrect_answers": [
+//         "Mob Of The Dead",
+//         "Origins",
+//         "Ascension"
+//       ]
+//     },
+//     {
+//       "id":36,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Who is the main character in the video game &quot;Just Cause 3&quot;?",
+//       "correct_answer": "Rico Rodriguez",
+//       "incorrect_answers": [
+//         "Tom Sheldon",
+//         "Marcus Holloway",
+//         "Mario Frigo"
+//       ]
+//     },
+//     {
+//       "id":37,
+//       "category": "Entertainment: Music",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+//       "correct_answer": "Viktor Tsoi",
+//       "incorrect_answers": [
+//         "Jimi Hendrix",
+//         "Brian Jones",
+//         "Vladimir Vysotsky"
+//       ]
+//     },
+//     {
+//       "id":38,
+//       "category": "Science & Nature",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "How long is a light-year?",
+//       "correct_answer": "9.461 Trillion Kilometres",
+//       "incorrect_answers": [
+//         "1 AU",
+//         "105.40 Earth-years",
+//         "501.2 Million Miles"
+//       ]
+//     },
+//     {
+//       "id":39,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "hard",
+//       "question": "In World of Warcraft, which raid instance features a chess event?",
+//       "correct_answer": "Karazhan",
+//       "incorrect_answers": [
+//         "Zul&#039;Aman",
+//         "Blackwing Lair",
+//         "Temple of Ahn&#039;Qiraj"
+//       ]
+//     },
+//     {
+//       "id":40,
+//       "category": "Entertainment: Comics",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+//       "correct_answer": "John Calvin",
+//       "incorrect_answers": [
+//         "Calvin Klein",
+//         "Calvin Coolidge",
+//         "Phillip Calvin McGraw"
+//       ]
+//     },
+//     {
+//       "id":41,
+//       "category": "Entertainment: Music",
+//       "type": "boolean",
+//       "difficulty": "hard",
+//       "question": "The song Scatman&#039;s World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).",
+//       "correct_answer": "True",
+//       "incorrect_answers": [
+//         "False"
+//       ]
+//     },
+//     {
+//       "id":42,
+//       "category": "History",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What was the code name for the German invasion of the Soviet Union in WW2?",
+//       "correct_answer": "Operation Barbarossa",
+//       "incorrect_answers": [
+//         "Operation Kaiserschlact",
+//         "Operation Unthinkable",
+//         "Operation Molotov"
+//       ]
+//     },
+//     {
+//       "id":43,
+//       "category": "Animals",
+//       "type": "boolean",
+//       "difficulty": "easy",
+//       "question": "Rabbits can see what&#039;s behind themselves without turning their heads.",
+//       "correct_answer": "True",
+//       "incorrect_answers": [
+//         "False"
+//       ]
+//     },
+//     {
+//       "id":44,
+//       "category": "Entertainment: Television",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "What TV show is about a grandfather dragging his grandson around on adventures?",
+//       "correct_answer": "Rick &amp; Morty",
+//       "incorrect_answers": [
+//         "Family Guy",
+//         "South Park",
+//         "American Dad"
+//       ]
+//     },
+//     {
+//       "id":45,
+//       "category": "Entertainment: Film",
+//       "type": "multiple",
+//       "difficulty": "easy",
+//       "question": "In &quot;ALF&quot;, what was ALF&#039;s real name?",
+//       "correct_answer": "Gordon Shumway",
+//       "incorrect_answers": [
+//         "Gordon Milipp",
+//         "Gordon Foster",
+//         "Gordon von Gam"
+//       ]
+//     },
+//     {
+//       "id":46,
+//       "category": "Entertainment: Japanese Anime & Manga",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "How does the character Dragowizard, Qinus Axia&#039;s from the anime &quot;Buddyfight&quot; differ between the Japanese and English dubs?",
+//       "correct_answer": "Different Gender",
+//       "incorrect_answers": [
+//         "Different Body Proportions",
+//         "Different Backstory",
+//         "Different Appearance"
+//       ]
+//     },
+//     {
+//       "id":47,
+//       "category": "Entertainment: Japanese Anime & Manga",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Who is the main character in One Piece?",
+//       "correct_answer": "Luffy",
+//       "incorrect_answers": [
+//         "Shanks",
+//         "Zoro",
+//         "Smoker"
+//       ]
+//     },
+//     {
+//       "id":48,
+//       "category": "Science: Computers",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+//       "correct_answer": "Shamir",
+//       "incorrect_answers": [
+//         "Secure",
+//         "Schottky",
+//         "Stable"
+//       ]
+//     },
+//     {
+//       "id":49,
+//       "category": "History",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "Which Nazi General was known as the &quot;Desert Fox&quot;?",
+//       "correct_answer": "Erwin Rommel",
+//       "incorrect_answers": [
+//         "Gerd von Rundstadt",
+//         "Wilhelm Keitel",
+//         "Heinz Guderian "
+//       ]
+//     },
+//     {
+//       "id":50,
+//       "category": "Entertainment: Video Games",
+//       "type": "multiple",
+//       "difficulty": "medium",
+//       "question": "In Splatoon, what is the age that inklings can freely change between squid and humanoid forms?",
+//       "correct_answer": "14",
+//       "incorrect_answers": [
+//         "13",
+//         "16",
+//         "10"
+//       ]
+//     }
+//   ]
+// }
